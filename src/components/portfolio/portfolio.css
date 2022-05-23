@@ -5,6 +5,7 @@
 }
 
 .portfolio__item {
+    position: relative;
     background-color: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -23,13 +24,20 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+.portfolio__item p {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    position: absolute;
+    bottom: 0;
 }
 
 /*=================================================================*/
