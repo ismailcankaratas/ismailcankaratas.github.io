@@ -63,13 +63,6 @@ export default function Experience() {
                                 <small className='text-light'>Deneyimli</small>
                             </div>
                         </article>
-                        <article className='experience__details'>
-                            <BsFillPatchCheckFill className="icon" />
-                            <div>
-                                <h4>Vue</h4>
-                                <small className='text-light'>Temel</small>
-                            </div>
-                        </article>
                     </div>
                 </div>
                 {/* End Of Frontend */}

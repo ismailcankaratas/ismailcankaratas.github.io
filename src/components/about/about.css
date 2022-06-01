@@ -65,6 +65,10 @@
     color: var(--color-light);
 }
 
+.about__content p strong {
+    color: var(--color-primary);
+}
+
 /*=================================================================*/
 /*                      Media Queries (Medium Devices)                         
 /*=================================================================*/

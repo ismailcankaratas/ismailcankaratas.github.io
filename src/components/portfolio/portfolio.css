@@ -40,6 +40,15 @@
     bottom: 0;
 }
 
+.portfolio__button {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    margin: 2rem auto;
+    color: var(--color-white);
+    padding: 1rem 3rem;
+}
+
 /*=================================================================*/
 /*                      Media Queries (Medium Devices)                         
 /*=================================================================*/

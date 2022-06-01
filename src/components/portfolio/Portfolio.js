@@ -2,23 +2,24 @@ import React from 'react'
 import "./portfolio.css"
 import portfolio from '../../assets/null-portfolio.jpg'
 import TrelloClone from "../../assets/trelloClone.png"
+import { BsGithub } from 'react-icons/bs';
 
 const data = [
     {
         id: 1,
         image: portfolio,
+        title: "Dbcopycat",
+        description: "Json verilerinizi bir dosyaya kaydeden ve CRUD işlemlerini gerçekleştirmenizi kolaylaştıran bir JSON Veritabanı.",
+        github: "https://github.com/ismailcankaratas/dbcopycat",
+        demo: "https://www.npmjs.com/package/dbcopycat"
+    },
+    {
+        id: 2,
+        image: TrelloClone,
         title: "Trello Clone",
         description: "React ile Trello Clone uygulaması.",
         github: "https://github.com/ismailcankaratas/TrelloClone",
         demo: "https://ismailcankaratas.github.io/TrelloClone/"
-    },
-    {
-        id: 2,
-        image: portfolio,
-        title: "İftara Nekadar Kaldı?",
-        description: "React ile Türkiye'deki tüm şehirlerin iftara nekadar kaldığını hesaplayan uygulama.",
-        github: "https://github.com/ismailcankaratas/iftaraNeKadarKaldi",
-        demo: "https://iftaranekadarkaldi.netlify.app/"
     },
     {
         id: 3,
@@ -57,6 +58,9 @@ export default function Portfolio() {
                     })
                 }
             </div>
+            <a href='https://github.com/ismailcankaratas' target="_blank" className='portfolio__button btn btn-primary'>
+                <BsGithub />
+                Daha Fazlası</a>
         </section>
     )
 }

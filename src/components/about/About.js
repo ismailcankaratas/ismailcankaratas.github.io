@@ -34,12 +34,10 @@ export default function about() {
           </div>
 
           <p>
-            Web geliştiricisiyim, frontend alanında React,
-            nextjs ve vue kütüphanelerinde deneyimliyim.
-            .NET alanında az da olsa bilgi sahibiyim. Beni
-            motive eden şey kod yazmak. Hiç yoktan yazılım
-            yaratmak, eğlenceli ve güzel.
-
+            Web geliştiricisiyim, frontend alanında <strong>React</strong> kütüphanelerinde deneyimliyim <strong>Nodejs</strong> ve <strong>.Net</strong> ile backend alanında deneyimliyim. Tercihen <strong>MERN stack</strong> çalışmayı isterim.
+            <br />
+            <br />
+            Beni motive eden şey kod yazmak. Hiç yoktan yazılım yaratmak eğlenceli ve güzel.
           </p>
           <a href="#contact" className='btn btn-primary'>İletişime Geç</a>
         </div>
