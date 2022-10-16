@@ -35,8 +35,8 @@ export default function about() {
 
           <p>
             Web geliştiricisiyim, responsive tasarımda
-            uzmanım. Genellikle <strong>Reactjs</strong> ve <strong>Nodejs </strong>
-            teknolojileriyle çalışıyorum. Beni motive eden şey
+            uzmanım. <strong>Reactjs</strong> ve <strong>Nodejs </strong>
+            teknolojilerinde yetkinim. Beni motive eden şey
             kod yazmak. Hiç yoktan yazılım yaratmak
             eğlenceli ve güzel.
           </p>

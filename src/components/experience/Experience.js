@@ -15,7 +15,14 @@ export default function Experience() {
                         <article className='experience__details'>
                             <BsFillPatchCheckFill className="icon" />
                             <div>
-                                <h4>HTML</h4>
+                                <h4>React</h4>
+                                <small className='text-light'>Deneyimli</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsFillPatchCheckFill className="icon" />
+                            <div>
+                                <h4>Next</h4>
                                 <small className='text-light'>Deneyimli</small>
                             </div>
                         </article>
@@ -45,21 +52,6 @@ export default function Experience() {
                             <BsFillPatchCheckFill className="icon" />
                             <div>
                                 <h4>Tailwind</h4>
-                                <small className='text-light'>Deneyimli</small>
-                            </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <BsFillPatchCheckFill className="icon" />
-                            <div>
-                                <h4>Wordpress</h4>
-                                <small className='text-light'>Deneyimli</small>
-                            </div>
-                        </article>
-                        <article className='experience__details'>
-                            <BsFillPatchCheckFill className="icon" />
-                            <div>
-                                <h4>React</h4>
                                 <small className='text-light'>Deneyimli</small>
                             </div>
                         </article>

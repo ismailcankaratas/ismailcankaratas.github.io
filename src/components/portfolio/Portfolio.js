@@ -15,11 +15,11 @@ const data = [
     },
     {
         id: 2,
-        image: TrelloClone,
-        title: "Trello Clone",
-        description: "React ile Trello Clone uygulaması.",
-        github: "https://github.com/ismailcankaratas/TrelloClone",
-        demo: "https://ismailcankaratas.github.io/TrelloClone/"
+        image: "https://repository-images.githubusercontent.com/539013996/25dd0874-2203-4686-90fc-bc7be9ccb894",
+        title: "Contrib Chat",
+        description: "Github hesabıyla giriş yaparak. GitHub'da katkıda bulunduğunuz repolarda katkıda bulunanlarla sohbet edebilirsiniz.",
+        github: "https://github.com/ismailcankaratas/contribchat",
+        demo: "https://contribchat.vercel.app/"
     },
     {
         id: 3,

@@ -33,12 +33,6 @@ export default function Contact() {
             <a href="mailto:ismailcankaratasss@gmail.com" target="_blank">Mesaj Gönder</a>
           </article>
           <article className='contact__option'>
-            <BsWhatsapp className='icon' />
-            <h4>Whatsapp</h4>
-            <h5>+90 546 408 3325</h5>
-            <a href="https://api.whatsapp.com/send/?phone=05464083325&text=Merhaba%20%C4%B0smail%20Can" target="_blank">Mesaj Gönder</a>
-          </article>
-          <article className='contact__option'>
             <BsLinkedin className='icon' />
             <h4>Linkedin</h4>
             <h5>@ismailcankaratas</h5>
