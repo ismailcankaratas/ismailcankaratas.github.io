@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5096e06a.css",
-    "main.js": "/static/js/main.e305557f.js",
+    "main.js": "/static/js/main.776ce9e5.js",
     "static/media/null-portfolio.jpg": "/static/media/null-portfolio.cb449aad9a7d0c16d825.jpg",
     "static/media/ismailcan-2.jpeg": "/static/media/ismailcan-2.df539ccf6c632d44bf2f.jpeg",
     "static/media/İsmailCan.jpeg": "/static/media/İsmailCan.3944dbc95c65a8f443f3.jpeg",
@@ -9,10 +9,10 @@
     "static/media/trelloClone.png": "/static/media/trelloClone.af175dca71d3a7468513.png",
     "index.html": "/index.html",
     "main.5096e06a.css.map": "/static/css/main.5096e06a.css.map",
-    "main.e305557f.js.map": "/static/js/main.e305557f.js.map"
+    "main.776ce9e5.js.map": "/static/js/main.776ce9e5.js.map"
   },
   "entrypoints": [
     "static/css/main.5096e06a.css",
-    "static/js/main.e305557f.js"
+    "static/js/main.776ce9e5.js"
   ]
 }
