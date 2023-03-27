@@ -34,11 +34,10 @@ export default function about() {
           </div>
 
           <p>
-            Web geliştiricisiyim, responsive tasarımda
-            uzmanım. <strong>Reactjs</strong> ve <strong>Nodejs </strong>
-            teknolojilerinde yetkinim. Beni motive eden şey
-            kod yazmak. Hiç yoktan yazılım yaratmak
-            eğlenceli ve güzel.
+            Web geliştiricisiyim, responsive tasarım konusunda uzmanım. 
+            &nbsp;<strong>ReactJs</strong> ve <strong>NodeJs</strong> teknolojileri ile çalışıyorum. 
+            Web alanındaki becerilerimi ve bilgilerimi sürekli geliştiriyorum. 
+            Sorunları çözmeyi ve gelecekteki zorlukların üstesinden gelmeyi hızlı bir şekilde öğrenme yeteneğime güveniyorum.
           </p>
           <a href="#contact" className='btn btn-primary'>İletişime Geç</a>
         </div>

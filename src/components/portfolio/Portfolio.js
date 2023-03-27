@@ -1,7 +1,7 @@
 import React from 'react'
 import "./portfolio.css"
 import portfolio from '../../assets/null-portfolio.jpg'
-import TrelloClone from "../../assets/trelloClone.png"
+import SesliAsistanImage from "../../assets/sesli-asistan.png"
 import { BsGithub } from 'react-icons/bs';
 
 const data = [
@@ -11,7 +11,7 @@ const data = [
         title: "Dbcopycat",
         description: "Json verilerinizi bir dosyaya kaydeden ve CRUD işlemlerini gerçekleştirmenizi kolaylaştıran bir JSON Veritabanı.",
         github: "https://github.com/ismailcankaratas/dbcopycat",
-        demo: "https://www.npmjs.com/package/dbcopycat"
+        demo: "https://ismailcankaratas.github.io/dbcopycat/"
     },
     {
         id: 2,
@@ -23,11 +23,11 @@ const data = [
     },
     {
         id: 3,
-        image: portfolio,
-        title: "Blazor Battles",
-        description: ".NET Blazor savaş oyunu.",
-        github: "https://github.com/ismailcankaratas/BlazorBattles",
-        demo: "https://github.com/ismailcankaratas/BlazorBattles"
+        image: SesliAsistanImage,
+        title: "Sesli Asistan",
+        description: "Python ve OpenAI ile sesli asistan",
+        github: "https://github.com/ismailcankaratas/voice-assistant",
+        demo: "https://www.linkedin.com/feed/update/urn:li:activity:7040641536480452609/"
     },
 ]
 

@@ -7,14 +7,14 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/ 1;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
 
 .about__me img {
-    border-radius: 2rem;
+    border-radius: 1rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);

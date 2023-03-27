@@ -1,6 +1,7 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding: 0 1rem;
+    padding-top: 2rem;
     overflow: hidden;
 }
 
@@ -61,6 +62,7 @@ header {
 
 .me img {
     border-radius: 12rem 12rem 0rem 0rem;
+    object-position: center;
 }
 
 /*=================================================================*/
@@ -78,16 +80,6 @@ header {
 
 .scroll__down:hover {
     transform: rotate(0deg);
-}
-
-/*=================================================================*/
-/*                      Media Queries (Medium Devices)                         
-/*=================================================================*/
-
-@media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
 }
 
 /*=================================================================*/

@@ -7,8 +7,8 @@
 .portfolio__item {
     position: relative;
     background-color: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -19,10 +19,13 @@
 }
 
 .portfolio__item-image {
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     overflow: hidden;
 }
-
+.portfolio__item-image img {
+    object-fit: cover;
+    height: 150px;
+}
 .portfolio__item h3 {
     margin-top: 1rem;
 }
@@ -45,8 +48,13 @@
     align-items: center;
     gap: .4rem;
     margin: 2rem auto;
-    color: var(--color-white);
+    background-color: var(--color-white);
     padding: 1rem 3rem;
+}
+
+.portfolio__button:hover {
+    color: var(--color-white);
+    background-color: var(--color-bg-variant);
 }
 
 /*=================================================================*/

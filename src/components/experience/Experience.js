@@ -78,15 +78,22 @@ export default function Experience() {
                         <article className='experience__details'>
                             <BsFillPatchCheckFill className="icon" />
                             <div>
-                                <h4>.Net</h4>
-                                <small className='text-light'>Orta Düzey</small>
+                                <h4>C#</h4>
+                                <small className='text-light'>Başlangıç</small>
                             </div>
                         </article>
                         <article className='experience__details'>
                             <BsFillPatchCheckFill className="icon" />
                             <div>
-                                <h4>MsSql</h4>
-                                <small className='text-light'>Orta Düzey</small>
+                                <h4>PHP</h4>
+                                <small className='text-light'>Başlangıç</small>
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <BsFillPatchCheckFill className="icon" />
+                            <div>
+                                <h4>Python</h4>
+                                <small className='text-light'>Başlangıç</small>
                             </div>
                         </article>
                         <article className='experience__details'>
