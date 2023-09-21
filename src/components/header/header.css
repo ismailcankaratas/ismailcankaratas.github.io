@@ -54,7 +54,7 @@ header {
 
 .me {
     width: 22rem;
-    height: 30rem;
+    height: 150vh;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -62,7 +62,9 @@ header {
 
 .me img {
     border-radius: 12rem 12rem 0rem 0rem;
-    object-position: center;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: 50% 65%;
 }
 
 /*=================================================================*/
