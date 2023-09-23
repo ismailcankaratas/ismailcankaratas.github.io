@@ -7,9 +7,14 @@ export default function Header() {
   return (
     <header>
       <div className="container header__container">
-        <h5>Merhaba Ben</h5>
-        <h1>İsmail Can Karataş</h1>
-        <h5 className="text-light">Software Developer</h5>
+        <h5>İsmail Can Karataş'ın</h5>
+        <h1> Dijital Portfolyosuna Hoş Geldiniz!</h1>
+        <h5 className="text-light">
+          {" "}
+          Bu site, yazılım geliştirme tutkumu ve web projelerimi paylaştığım
+          kişisel bir alan. React ve Node.js gibi teknolojilerle çalışarak
+          edindiğim deneyimleri ve projeleri burada bulabilirsiniz.
+        </h5>
         <CTA />
         <HeaderSocials />
         <div className="me">
