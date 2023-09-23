@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^ismailcankaratas.com.tr [NC]
-RewriteRule ^(.*)$ http://ismailcankaratas.com.tr/$1 [L,R=301,NC]
