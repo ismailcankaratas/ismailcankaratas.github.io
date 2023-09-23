@@ -5,9 +5,9 @@ import { FaAward } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
-export default function about() {
+export default function About({ id, navKey, observerRefs }) {
   return (
-    <section id="about">
+    <section id={id} ref={(el) => (observerRefs.current[navKey] = el)}>
       <h5>Tanımak</h5>
       <h2>Hakkımda</h2>
       <div className="container about__container">

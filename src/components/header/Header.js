@@ -3,9 +3,9 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/ismailcankaratas.jpeg";
 import HeaderSocials from "./HeaderSocials";
-export default function Header() {
+export default function Header({ id, navKey, observerRefs }) {
   return (
-    <header>
+    <header id={id} ref={(el) => (observerRefs.current[navKey] = el)}>
       <div className="container header__container">
         <h5>İsmail Can Karataş'ın</h5>
         <h1> Dijital Portfolyosuna Hoş Geldiniz!</h1>

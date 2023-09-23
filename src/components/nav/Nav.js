@@ -1,29 +1,73 @@
-import React, { useEffect, useState } from 'react'
-import './nav.css';
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
-import { MdOutlineBrokenImage } from 'react-icons/md';
+import React, { useEffect, useRef, useState } from "react";
+import "./nav.css";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
+import { MdOutlineBrokenImage } from "react-icons/md";
 
-export default function Nav() {
-    const [activeNav, setActiveNav] = useState('#');
+const items = [
+  {
+    id: "Home",
+    icon: <AiOutlineHome />,
+  },
+  {
+    id: "About",
+    icon: <AiOutlineUser />,
+  },
+  {
+    id: "Experience",
+    icon: <BiBook />,
+  },
+  {
+    id: "Portfolio",
+    icon: <MdOutlineBrokenImage />,
+  },
+  {
+    id: "Contact",
+    icon: <BiMessageSquareDetail />,
+  },
+];
+export default function Nav({ observerRefs }) {
+  const [visibleKey, setVisibleKey] = useState(0);
+  const observers = useRef([]);
 
-    return (
-        <nav>
-            <a href="#" className={activeNav == '#' ? 'active' : ''} onClick={() => setActiveNav('#')}>
-                <AiOutlineHome />
-            </a>
-            <a href="#about" className={activeNav == '#about' ? 'active' : ''} onClick={() => setActiveNav('#about')}>
-                <AiOutlineUser />
-            </a>
-            <a href="#experience" className={activeNav == '#experience' ? 'active' : ''} onClick={() => setActiveNav('#experience')}>
-                <BiBook />
-            </a>
-            <a href="#portfolio" className={activeNav == '#portfolio' ? 'active' : ''} onClick={() => setActiveNav('portfolio')}>
-                <MdOutlineBrokenImage />
-            </a>
-            <a href="#contact" className={activeNav == '#contact' ? 'active' : ''} onClick={() => setActiveNav('#contact')}>
-                <BiMessageSquareDetail />
-            </a>
-        </nav>
-    )
+  const onClick = (item, key) => {
+    setVisibleKey(key);
+  };
+
+  const observerCallback = async (e, key) => {
+    if (e.length && e[0].isIntersecting) {
+      setVisibleKey(key);
+    }
+  };
+
+  useEffect(() => {
+    console.log(observerRefs, observers);
+    if (observerRefs.current?.length && observers.current) {
+      Array.from(Array(10).keys()).forEach((_u, key) => {
+        observers.current[key] = new IntersectionObserver((e) =>
+          observerCallback(e, key)
+        );
+        if (observerRefs.current[key]) {
+          observers.current[key].observe(observerRefs.current[key]);
+        }
+      });
+    }
+    return () =>
+      observers.current?.forEach((observer) => observer?.current?.disconnect());
+  }, [observerRefs, observers]);
+
+  return (
+    <nav>
+      {items.map((item, key) => (
+        <a
+          href={`#${item.id.toLowerCase()}`}
+          className={`${key === visibleKey ? "active" : ""}`}
+          onClick={() => onClick(item, key)}
+          key={`item-${key}`}
+        >
+          {item.icon}
+        </a>
+      ))}
+    </nav>
+  );
 }
