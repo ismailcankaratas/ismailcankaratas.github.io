@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.ec8b8127.css",
-    "main.js": "/static/js/main.b10b785c.js",
+    "main.js": "/static/js/main.cfc7e673.js",
     "static/media/null-portfolio.jpg": "/static/media/null-portfolio.cb449aad9a7d0c16d825.jpg",
-    "static/media/ismailcankaratas.jpeg": "/static/media/ismailcankaratas.91f04d1e35aa3fce4727.jpeg",
+    "static/media/ismailcankaratas.jpeg": "/static/media/ismailcankaratas.65e1e4f4cc834a23577b.jpeg",
     "static/media/İsmailCan.jpeg": "/static/media/İsmailCan.3944dbc95c65a8f443f3.jpeg",
     "static/media/ismailcankaratas-cv.pdf": "/static/media/ismailcankaratas-cv.575a74178586e85f6675.pdf",
     "static/media/sesli-asistan.png": "/static/media/sesli-asistan.f7fdf9863e82e4f560fc.png",
     "index.html": "/index.html",
     "main.ec8b8127.css.map": "/static/css/main.ec8b8127.css.map",
-    "main.b10b785c.js.map": "/static/js/main.b10b785c.js.map"
+    "main.cfc7e673.js.map": "/static/js/main.cfc7e673.js.map"
   },
   "entrypoints": [
     "static/css/main.ec8b8127.css",
-    "static/js/main.b10b785c.js"
+    "static/js/main.cfc7e673.js"
   ]
 }
