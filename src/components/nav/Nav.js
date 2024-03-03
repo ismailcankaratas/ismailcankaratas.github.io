@@ -41,7 +41,6 @@ export default function Nav({ observerRefs }) {
   };
 
   useEffect(() => {
-    console.log(observerRefs, observers);
     if (observerRefs.current?.length && observers.current) {
       Array.from(Array(10).keys()).forEach((_u, key) => {
         observers.current[key] = new IntersectionObserver((e) =>

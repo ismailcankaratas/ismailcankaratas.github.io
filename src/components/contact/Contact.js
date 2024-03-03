@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsWhatsapp, BsLinkedin } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import emailjs from "emailjs-com";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 export default function Contact({ id, navKey, observerRefs }) {
   const form = useRef();

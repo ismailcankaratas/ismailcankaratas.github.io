@@ -32,31 +32,13 @@ export default function About({ id, navKey, observerRefs }) {
               <small>20+ Tamamlandı </small>
             </article>
           </div>
-
           <p>
-            Web geliştiriciyim <strong>ReactJS</strong> ve{" "}
-            <strong>NodeJS</strong> teknolojileriyle çalışıyorum. Web alanındaki
-            becerilerimi ve bilgilerimi sürekli olarak geliştirme yolunda
-            ilerliyorum. Sorunları çözme becerim güçlü ve gelecekteki
-            zorluklarla başa çıkmayı hızla öğrenme yeteneğine sahibim
-          </p>
-          <p>
-            Ekip çalışmasına uyumlu ve iletişim becerilerim güçlüdür. Gönüllü
-            projelerde lider olarak görev aldım. Proje süreçlerini etkin bir
-            şekilde yönetmek için <strong>Git</strong> ve{" "}
-            <strong>GitHub</strong> gibi araçları kullanarak agile
-            metodolojileri benimsiyorum.
-          </p>
-          <p>
-            Son zamanlarda <strong>Python</strong> ile makine öğrenimi ve yapay
-            zeka alanına ilgi duymaya başladım. Bu alanda yeni yetenekler
-            edinmeye ve teknik bilgilerimi daha da derinleştirmeye
-            odaklanıyorum.
-          </p>
-          <p>
-            Benim için en önemli hedef, kullanıcı deneyimini en üst düzeye
-            çıkarmak ve yaratıcı çözümler üretmektir. Yeni projelerde çalışmak
-            ve katkı sağlamak için sabırsızlanıyorum.
+            Yazılım geliştiriciyim, frontend alanında <strong>React</strong>{" "}
+            teknolojileriyle çalışıyorum. Ayrıca backend alanında{" "}
+            <strong>.NET</strong> ve <strong>C#</strong> becerilerimi
+            geliştiriyorum. Yazılım geliştirme süreçlerinde sürdürülebilirliği
+            arttırmak için SOLID prensiplerini ve clean code konuları
+            benimsiyorum.
           </p>
           <a href="#contact" className="btn btn-primary">
             İletişime Geç

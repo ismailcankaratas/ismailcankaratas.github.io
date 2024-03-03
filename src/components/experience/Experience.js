@@ -63,7 +63,6 @@ export default function Experience({ id, navKey, observerRefs }) {
             <article className="experience__details">
               <BsFillPatchCheckFill className="icon" />
               <div>
-                <div></div>
                 <h4>Node JS</h4>
                 <small className="text-light">Deneyimli</small>
               </div>
@@ -79,14 +78,14 @@ export default function Experience({ id, navKey, observerRefs }) {
               <BsFillPatchCheckFill className="icon" />
               <div>
                 <h4>C#</h4>
-                <small className="text-light">Başlangıç</small>
+                <small className="text-light">Orta Düzey</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="icon" />
               <div>
-                <h4>PHP</h4>
-                <small className="text-light">Başlangıç</small>
+                <h4>.NET</h4>
+                <small className="text-light">Orta Düzey</small>
               </div>
             </article>
             <article className="experience__details">
@@ -99,7 +98,7 @@ export default function Experience({ id, navKey, observerRefs }) {
             <article className="experience__details">
               <BsFillPatchCheckFill className="icon" />
               <div>
-                <h4>MySql</h4>
+                <h4>SQL</h4>
                 <small className="text-light">Temel</small>
               </div>
             </article>
