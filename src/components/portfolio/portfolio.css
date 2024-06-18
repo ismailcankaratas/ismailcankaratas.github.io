@@ -33,6 +33,21 @@
     margin-top: 1rem;
 }
 
+.portfolio__item_badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem;
+    margin-top: .5rem;
+}
+
+.portfolio__item_badges span {
+    font-size: .8rem;
+    background-color: var(--color-primary);
+    padding: .1rem .5rem;
+    border-radius: 1rem;
+    margin-right: .1rem;
+}
+
 .portfolio__item p {
     margin-top: 1rem;
     margin-bottom: 4rem;
