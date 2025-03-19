@@ -3,9 +3,9 @@ import "./portfolio.css";
 import { BsGithub } from "react-icons/bs";
 
 // Portfolio Images
-import VoiceAssistantImage from "../../assets/portfolio/voice-assistant.png";
+import Vevez from "../../assets/portfolio/vevez.png";
 import ChristmasRaffle from "../../assets/portfolio/christmas-raffle.png";
-import IftaraNeKadarKaldi from "../../assets/portfolio/iftaraNeKadarKaldi.png";
+import AI from "../../assets/portfolio/ai.png";
 
 const data = [
   {
@@ -16,27 +16,23 @@ const data = [
     description:
       "Sistem, çekilise katılanları gelistirdigimiz bir algoritma ile eslestirilmesi ve birbirlerine alacakları sürpriz hediyelerle tanısmasına dayanıyor.",
     github: "https://github.com/ismailcankaratas/christmas-raffle",
-    demo: "",
   },
   {
     id: 2,
-    image: IftaraNeKadarKaldi,
-    title: "İftara Ne Kadar Kaldi?",
-    badges: ["ReactJS v18", "Redux Toolkit", "Tailwind", "Collect API"],
+    image: AI,
+    title: "Yapay Zeka Destekli Asistan",
+    badges: ["Python", "OpenAI", "REST API"],
     description:
-      "Türkiye deki tüm illerin iftar vakitlerine ne kadar kaldığını gösteren proje.",
-    github: "https://github.com/ismailcankaratas/iftaraNeKadarKaldi",
-    demo: "https://ismailcankaratas.com.tr/iftaraNeKadarKaldi/",
+      "Çalışan verimliliğini artırmak için, şirket belgelerini analiz eden ve kullanıcı sorularına yanıt veren yapay zeka destekli bir asistan geliştirdim. Bu projede, Python ve ChatGPT API kullanarak doğal dil işleme (NLP) ve makine öğrenimi tekniklerini entegre ettim.",
   },
   {
     id: 3,
-    image: VoiceAssistantImage,
-    title: "Voice Assistant",
-    badges: ["Python", "OpenAI API"],
+    image: Vevez,
+    title: "Çok Dilli Gastronomi Platformu",
+    badges: ["React", "NextJS", "Typescript"],
     description:
-      "OpenAI'nin doğal dil işleme yetenekleri ve Python programlama dilinin gücünden faydalanarak geliştirilmiş kullanıcının doğal dilini anlayabilen bir sesli asistandır.",
-    github: "https://github.com/ismailcankaratas/voice-assistant",
-    demo: "https://www.linkedin.com/feed/update/urn:li:activity:7040641536480452609/",
+      "VEVEZ, 100'den fazla dil desteği, kişiselleştirilmiş yemek önerileri, kolay sipariş, güvenli ödemeler, rezervasyonlar ve gastronomik rehberler içeren küresel bir yemek platformudur. React, Next.js ve TypeScript ile oluşturulmuştur.",
+    demo: "https://www.vevez.com/",
   },
 ];
 
@@ -61,9 +57,11 @@ export default function Portfolio({ id, navKey, observerRefs }) {
               </div>
               <p className="text-light">{description}</p>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
-                  Github
-                </a>
+                {github && (
+                  <a href={github} className="btn" target="_blank">
+                    Github
+                  </a>
+                )}
                 {demo && (
                   <a href={demo} className="btn btn-primary" target="_blank">
                     Live Demo

@@ -5,8 +5,8 @@ import { BsFillPatchCheckFill } from "react-icons/bs";
 export default function Experience({ id, navKey, observerRefs }) {
   return (
     <section id={id} ref={(el) => (observerRefs.current[navKey] = el)}>
-      <h5>Ne Yeteneklerim Var</h5>
-      <h2>Deneyimlerim</h2>
+      <h5>Ne Yeteneklerim Var?</h5>
+      <h2>Yeteneklerim</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">

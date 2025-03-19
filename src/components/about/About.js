@@ -19,7 +19,7 @@ export default function About({ id, navKey, observerRefs }) {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Tecrübe</h5>
-              <small>2+ Yıl </small>
+              <small>3+ Yıl </small>
             </article>
             <article className="about__card">
               <FiUser className="about__icon" />
@@ -33,12 +33,13 @@ export default function About({ id, navKey, observerRefs }) {
             </article>
           </div>
           <p>
-            Yazılım geliştiriciyim, frontend alanında <strong>React</strong>{" "}
-            teknolojileriyle çalışıyorum. Ayrıca backend alanında{" "}
-            <strong>.NET</strong> ve <strong>C#</strong> becerilerimi
-            geliştiriyorum. Yazılım geliştirme süreçlerinde sürdürülebilirliği
-            arttırmak için SOLID prensiplerini ve clean code konuları
-            benimsiyorum.
+            Üç yıllık deneyime sahip bir yazılım geliştiricisiyim.{" "}
+            <strong>React</strong> ve <strong>Node.js</strong> ile kullanıcı
+            deneyimini iyileştiren ve iş süreçlerini kolaylaştıran uygulamalar
+            geliştirdim. Ayrıca <strong>Generative AI</strong> projelerinde yer
+            alarak yapay zeka tabanlı çalışmalar yapıyorum. Frontend ve backend
+            alanlarında edindiğim deneyimler, yeni teknolojilere kolayca adapte
+            olmamı ve sürekli gelişmemi sağlıyor.
           </p>
           <a href="#contact" className="btn btn-primary">
             İletişime Geç

@@ -12,7 +12,7 @@ export default function Header({ id, navKey, observerRefs }) {
         <h5 className="text-light">
           {" "}
           Bu site, yazılım geliştirme tutkumu ve web projelerimi paylaştığım
-          kişisel bir alan. React ve .NET gibi teknolojilerle çalışarak
+          kişisel bir alan. React ve NodeJs gibi teknolojilerle çalışarak
           edindiğim deneyimleri ve projeleri burada bulabilirsiniz.
         </h5>
         <CTA />
