@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ac62db5e.css",
-    "main.js": "/static/js/main.54f775d4.js",
-    "static/media/ismailcankaratas.jpeg": "/static/media/ismailcankaratas.d413aa11e5cfd324702e.jpeg",
-    "static/media/İsmailCan.jpeg": "/static/media/İsmailCan.65e1e4f4cc834a23577b.jpeg",
+    "main.js": "/static/js/main.19ba9bd2.js",
+    "static/media/vevez.png": "/static/media/vevez.f4fc35ea7428c2f41a45.png",
+    "static/media/İsmailCan.jpeg": "/static/media/İsmailCan.d413aa11e5cfd324702e.jpeg",
+    "static/media/ismailcankaratas.jpeg": "/static/media/ismailcankaratas.65e1e4f4cc834a23577b.jpeg",
     "static/media/christmas-raffle.png": "/static/media/christmas-raffle.d15a8ca69dd045544b17.png",
     "static/media/ismailcankaratas-cv.pdf": "/static/media/ismailcankaratas-cv.2aba2b159872338c5f77.pdf",
-    "static/media/voice-assistant.png": "/static/media/voice-assistant.f7fdf9863e82e4f560fc.png",
-    "static/media/iftaraNeKadarKaldi.png": "/static/media/iftaraNeKadarKaldi.cae50f555ad1b554e484.png",
+    "static/media/ai.png": "/static/media/ai.f30cf53fb6aa9f866de6.png",
     "index.html": "/index.html",
     "main.ac62db5e.css.map": "/static/css/main.ac62db5e.css.map",
-    "main.54f775d4.js.map": "/static/js/main.54f775d4.js.map"
+    "main.19ba9bd2.js.map": "/static/js/main.19ba9bd2.js.map"
   },
   "entrypoints": [
     "static/css/main.ac62db5e.css",
-    "static/js/main.54f775d4.js"
+    "static/js/main.19ba9bd2.js"
   ]
 }
