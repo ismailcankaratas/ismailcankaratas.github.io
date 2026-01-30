@@ -33,10 +33,12 @@ export default function About({ id, navKey, observerRefs }) {
             </article>
           </div>
           <p>
-            Üç yıllık deneyime sahip bir yazılım geliştiricisiyim.{" "}
-            <strong>React</strong> ve <strong>Node.js</strong> ile kullanıcı
-            deneyimini iyileştiren ve iş süreçlerini kolaylaştıran uygulamalar
-            geliştirdim. Ayrıca <strong>Generative AI</strong> projelerinde yer
+            3 yıllık yazılım geliştirme deneyimimle, uçtan uca web uygulamaları geliştiriyor ve Generative AI üzerinde çalışıyorum.{" "}
+            <strong>React</strong>, <strong>Node.js</strong> ve <strong>Python</strong> gibi modern teknolojilerle ölçeklenebilir,
+            kullanıcı odaklı sistemler tasarlama konusunda uzmanlaştım.
+          </p>
+          <p>
+            <strong>Generative AI</strong> projelerinde yer
             alarak yapay zeka tabanlı çalışmalar yapıyorum. Frontend ve backend
             alanlarında edindiğim deneyimler, yeni teknolojilere kolayca adapte
             olmamı ve sürekli gelişmemi sağlıyor.
